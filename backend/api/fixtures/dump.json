@@ -73,7 +73,7 @@
     "fields": {
       "name": "\u0420\u0430\u0431\u043e\u0442\u0430/\u0443\u0447\u0435\u0431\u0430",
       "color": "#0011ff",
-      "iconName": "graduation-cap"
+      "icon_name": "graduation-cap"
     }
   },
   {
@@ -82,7 +82,7 @@
     "fields": {
       "name": "\u0417\u0434\u043e\u0440\u043e\u0432\u044c\u0435",
       "color": "#ff2600",
-      "iconName": "heartbeat"
+      "icon_name": "heartbeat"
     }
   },
   {
@@ -91,7 +91,7 @@
     "fields": {
       "name": "\u041c\u0435\u0436\u043b\u0438\u0447\u043d\u043e\u0441\u0442\u043d\u044b\u0435 \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u044f",
       "color": "#ffca00",
-      "iconName": "user-friends"
+      "icon_name": "user-friends"
     }
   },
   {

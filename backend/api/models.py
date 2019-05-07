@@ -17,7 +17,8 @@ class CustomerSettings(models.Model):
         (PUBLIC, 'Публичный'),
     )
 
-    customer = models.OneToOneField(Customer, on_delete=models.CASCADE)
+    customer = models.OneToOneField(
+        Customer, related_name='settings', on_delete=models.CASCADE)
     privacy_level = models.CharField(
         max_length=2,
         choices=PRIVACY_LEVEL,
@@ -28,7 +29,7 @@ class CustomerSettings(models.Model):
 class Category(models.Model):
     name = models.CharField(max_length=100)
     color = models.CharField(max_length=7)
-    iconName = models.CharField(max_length=20)
+    icon_name = models.CharField(max_length=20)
 
     def __str__(self):
         return self.name
